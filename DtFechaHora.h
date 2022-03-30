@@ -7,9 +7,9 @@ class DtFechaHora{
 public:
     //constructores.
     DtFechaHora();
-    DtFechaHora(int dia, int mes, int anio, int hora, int  minuto);
+    DtFechaHora(int _dia, int _mes, int _anio, int _hora, int  _minuto);
     //destructor.
-    virtual~DtFechaHora();
+    virtual ~DtFechaHora();
     //setters
     void SetDia(int dia);
     void SetMes(int mes);
@@ -21,15 +21,15 @@ public:
     int GetMes() const;
     int GetAnio() const;
     int GetHora() const;
-    int GetMinuto()const;
+    int GetMinuto() const;
 
 
 private:
-int dia;
-int mes;
-int anio;
-int hora;
-int minuto;
+    int dia;
+    int mes;
+    int anio;
+    int hora;
+    int minuto;
 
 };
 
